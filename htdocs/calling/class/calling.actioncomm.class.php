@@ -29,11 +29,11 @@ class ActionCommCalling
 	/**
 		@var object db current doli
 	*/
-	protected $db;
+	public $db;
 	/**
 		@var object actioncomm static
 	*/
-	static protected $actioncomm;
+	static public $actioncomm;
 
 	/**
 		@var boolean active / inactive trace in action
