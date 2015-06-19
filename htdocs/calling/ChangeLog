@@ -1,0 +1,38 @@
+--------------------------------------------------------------
+English Dolibarr Calling ChangeLog
+--------------------------------------------------------------
+
+TODO
+-----------
+- Add FAQ in module 
+
+
+1.2.8
+-----------
+- Implements OscimMods depends 
+- Add Changelog section and defult page in configuration section 
+
+1.2.7
+-----------
+- Check process for Dolibarr 3.5.3
+- Fix link vs calendar in dolibarr 
+- Fix translate for incoming calls
+- Fix advancedjs plugin for dispay popup , based on html dolibarr structure
+- Fix calulate duration call 
+- Fix other bugs
+- Add translation for turck (tr), Neederalnd (ne), danmerak (da)
+
+1.2.6
+-----------
+- Add translation 
+
+
+1.2.4
+-----------
+- Check process for Dolibarr 3.4.1
+- Fix display popup for all incoming  calls
+
+1.2.3
+-----------
+- Check and Fix process for Dolibarr 3.4.0
+- Add user for manipulate calendar and  incoming/outgoing calls

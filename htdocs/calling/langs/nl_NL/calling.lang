@@ -1,0 +1,102 @@
+# Dolibarr taalbestand - nl_NL - bellen
+Charset = UTF-8
+CallingSetup = Configuratieondersteuning telefoontjes inkomende / uitgaande
+CallingDesc = Configureer het gedrag van het verslag gebeurtenissen in het handelen van elke derde / contact. Een contactgroep op basis van het telefoonnummer; Alert (dialoogvenster) op inkomende links naar de pagina met de betreffende derde oproep. ClicktoCall De module moet geconfigureerd zijn voor deze module te werken corrigeren voor uitgaande gesprekken
+CallingApiSendActive = uitgaand gesprek
+CallingApiRecevingActive = inkomende oproep
+URLforsendingcall Url = uitgaande
+Inkomende Url = URLfornotifiindoli
+CallingAlertTypePopup = Alert modus
+CallingAlertType0 = Geen melding popup
+CallingAlertType1 = Alleen gebruikers van de opgeroepen worden gemeld
+CallingAlertType2 = Alle gebruiker geconfigureerd voor ClickToDial meegedeeld
+CallingAlertType3 = Alle gebruikers worden gemeld
+CallingAlertTypeDetail = Prestaties en geven een waarschuwing pop-up bij inkomende oproep
+CallingAlertFiche = Sheet
+Gepubliceerd CallingAlertEdit =
+CallingAlertTodo = Todo
+CallingConfigTab = Configuratie
+CallingEditorTab = Uitgever
+CallingAlertTiersContact = Contact
+Derde CallingAlertTiersSociete =
+CallingAlertCreateNo = Geen creatie opname
+CallingAlertCreateTiers = Maak een partij met nummerweergave
+CallingAlertCreateContact = Maak een telefoonnummer van de beller
+CallingAlertCreateYes = Voeg een bedrijf
+CallingAlertCreateAnonymous = Anonieme Oproep
+CallingAlertCreateAnonymousDetail = Maak een formulier voor anonieme oproepen
+CallingAlertCreateTiersInconnu = aanmaken Derde
+CallingAlertCreateTiersInconnuDetail = Het creëren van een profiel (contact / derde) bij een inkomend gesprek, waarvan het telefoonnummer niet in de database opgeslagen
+CallingTxtIncomingCall = Inkomend gesprek
+
+CallingTxtIncomingCallnotanswered = niet beantwoord
+CallingTxtOutgoingCall = Uitgaand gesprek
+CallingLogInAction = Trace gesprekken
+CallingLogInActionDetail = Trace alle inkomende en uitgaande gesprekken in aandelen
+CallingLogInActionNo = Nee
+CallingLogInActionYes = Ja
+CallingButtonDisplay = Call
+CallingAlertTypeMode = Telefoon bedrijf
+CallingAlertTypeModeNo = Igorer inkomende gesprekken aantallen gebruikers van het bedrijf (pro / personal / mobiel)
+CallingAlertTypeModeYesButNoUser = Accepteren en in kennis, tenzij de bijbehorende gebruiker
+CallingAlertTypeModeYesBuJustTrace = accepteren maar gewoon tekenen op aandelen
+CallingAlertTypeModeDetail = Gedrag bij inkomende oproepen van (mobiel via clicktocall, interne oproep) interne gebruikers
+CallingAlertTypeModeDisplayBlockUser = Informatie collaborateur genoemd
+CallingAlertTypeModeDisplayBlockUserNo = Nee
+CallingAlertTypeModeDisplayBlockUserYes = Ja
+CallingAlertTypeModeDisplayBlockUserDetail = Geeft een informatieblok van de werknemer genoemd
+CallingUserIncoming = Gebruiker
+CallingUserIncomingDetail = automatische gebruiker van inkomende gesprekken
+AsteriskIp = IP / Domeinnaam
+ASteriskType = Type
+AsteriskIndicatif = Code
+AsteriskPort = Poort
+AsteriskContext = Context
+
+
+#
+# # Config / Admin
+#
+#
+# Instellingen
+CallingDescSettings = Configuratie
+
+#
+# Mod Api Provider
+CallingProvider = Leverancier
+CallingDescModProvider = koppeling Selecteren module met de API telefoondienst
+
+#
+# Mod Alert
+CallingAlert = Display
+CallingDescModAlert = gedrag vertonen inkomende en uitgaande gesprekken
+
+
+
+#
+Kalender # #
+CallingTxtIncomingCallTime = duur:
+
+# # Info popup alert
+CallingAlertTiersCollaborateur = Oproep naar een collega
+CallingAlertUserFiche = Sheet inzender
+
+# Api mod
+# Api_Asterisk mod
+CallingApiAsteriskDescription = Module Liaison api oscim voor asterisk. Deze API voorzien van een handvat uitgaande gesprekken met clicktocall en melding van inkomende oproepen (is het noodzakelijk om asterisk te configureren en aan te passen context).
+# Api_keyyo mod
+CallingApiKeyyoDescription = Module Liaison api Keyyo (keyyo.fr). Deze API leverde een handgreep uitgaande gesprekken met clicktocall en melding van inkomende gesprekken (het is nodig om de interface Keyyo URL aanmelding configureren).
+# Api OVH mod
+CallingApiOvhDescription = Module Liaison api OVH Het is noodzakelijk de clicktocall module en de toegang van elke gebruiker configureren. Behandelen alleen uitgaande gesprekken wordt ondersteund.
+# Api_keyyo mod
+CallingApiOvhAsteriskDescription = uitbreiding van de api OVH Module. Als u de inkomende melding met sterretje te beheren). Deze API voorzien beheer met uitgaande gesprekken via de PBX clicktocall OVH en melding van inkomende oproepen via het communicatiesysteem persoonlijk (het is noodzakelijk om asterisk te configureren voor deze ondersteuning).
+
+Alert # mod
+# Monster nr. run
+CallingAlertNorunDescription = Module voorbeeld zonder uitvoering
+# Alert simplejs mod
+CallingAlertSimplejsDescription = Geeft een dialoogvenster met links naar externe plug / contact op basis van jQuery en het gebruik van een periodiek vernieuwen
+# Alert Advancedjs mod
+CallingAlertAdvancedjsDescription = Op basis van jQuery en het gebruik van een periodiek vernieuwen, maar deze module voegt een menu van Elementen in de rechterbovenhoek; Het is niet opdringerig!
+# Nodejs alert mod
+CallingAlertNodejsDescription = Client Script een servelet nodejs op dezelfde server als Dolibarr en het waarborgen van een druk op de gegevens zonder ajax oproep via periodiek vernieuwen geïnstalleerd. Het is multi-user. De bronnen van servelet zijn voorzien in dit pakket. het scherm is dezelfde als die welke door de advancedjs module.

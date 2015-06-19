@@ -1,0 +1,101 @@
+# Dolibarr Sprachdatei - de_DE - Aufruf
+Charset = UTF-8
+CallingSetup = Configuration Support telefonieren eingehende / ausgehende
+CallingDesc = Konfigurieren Sie das Verhalten der Ereignisse in den Bericht Handeln jedes dritte / contact. Erstellen eines Kontakts auf der Telefonnummer alert ( Dialog ) auf eingehende Verbindungen mit dem dritten Blatt des entsprechenden Aufruf basiert. Die ClicktoCall Modul muss konfiguriert für dieses Modul zu arbeiten Korrektur für abgehende Anrufe werden
+CallingApiSendActive = ausgehenden Anruf
+CallingApiRecevingActive = eingehenden Anruf
+URLforsendingcall = URL ausgehend
+URLfornotifiindoli = URL incoming
+CallingAlertTypePopup = Warnmodus
+CallingAlertType0 = keine Benachrichtigung Popup
+CallingAlertType1 = Nur Benutzer des angerufenen benachrichtigt
+CallingAlertType2 = Alle Benutzer konfiguriert für ClickToDial benachrichtigt werden
+CallingAlertType3 = Alle Benutzer werden benachrichtigt
+CallingAlertTypeDetail = Leistung und zeigt eine Benachrichtigung Pop-up bei eingehendem Anruf
+CallingAlertFiche = Blatt
+CallingAlertEdit = Powered
+CallingAlertTodo = Todo
+CallingConfigTab = Configuration
+CallingEditorTab = Verlag
+CallingAlertTiersContact = Kontakt
+CallingAlertTiersSociete = Dritter
+CallingAlertCreateNo = Kein Datensatz erstellen
+CallingAlertCreateTiers = Erstellen Sie eine Partei mit Anruferkennung
+CallingAlertCreateContact = Erstellen Sie eine Telefonnummer des Anrufers
+CallingAlertCreateYes = Eintrag hinzufügen
+CallingAlertCreateAnonymous = anonymer Anruf
+CallingAlertCreateAnonymousDetail = Erstellen Sie ein Formular für anonyme Anrufe
+CallingAlertCreateTiersInconnu = Erstellen Third
+CallingAlertCreateTiersInconnuDetail = Erstellen einer Datei ( touch / Drittel) bei einem eingehenden Anruf , dessen Nummer nicht an der Basisstation angemeldet
+CallingTxtIncomingCall = Incoming Call
+CallingTxtIncomingCallnotanswered = nicht beantwortet
+CallingTxtOutgoingCall = Outgoing Call
+CallingLogInAction = Trace Anrufe
+CallingLogInActionDetail = Trace alle ankommenden und abgehenden Anrufe in Aktien
+CallingLogInActionNo = Nein
+CallingLogInActionYes = Ja
+CallingButtonDisplay = Anruf
+CallingAlertTypeMode = Phone Company
+CallingAlertTypeModeNo = Igorer eingehende Anrufe Anzahl von Benutzern des Unternehmens (pro / personal / mobil)
+CallingAlertTypeModeYesButNoUser = Akzeptieren und mitteilen, es sei denn, der entsprechende Benutzer
+CallingAlertTypeModeYesBuJustTrace = akzeptieren, aber nur auf Aktien zu zeichnen
+CallingAlertTypeModeDetail = Verhalten bei Anrufen Eingabe (via Handy clicktocall , interner Anruf ) Interne Nutzer
+CallingAlertTypeModeDisplayBlockUser = Information Mitarbeiter genannt
+CallingAlertTypeModeDisplayBlockUserNo = Nein
+CallingAlertTypeModeDisplayBlockUserYes = Ja
+CallingAlertTypeModeDisplayBlockUserDetail = Zeigt einen Informationsblock des Mitarbeiters genannt
+CallingUserIncoming = Benutzer
+CallingUserIncomingDetail = automatische Benutzer über eingehende Anrufe
+AsteriskIp = Ip / Domain
+ASteriskType Type =
+AsteriskIndicatif = Code
+AsteriskPort = Hafen
+AsteriskContext = Context
+
+#
+## Config / Admin
+#
+	#
+	# Settings
+	CallingDescSettings=Konfiguration
+	
+	#
+	# Mod Provider Api
+	CallingProvider=Lieferant
+	CallingDescModProvider=Wahl der Anschlussmodul mit der API-Telefonie-Dienst
+
+	#
+	# Mod Alert
+	CallingAlert=Affichage
+	CallingDescModAlert=Verhalten Display ein-und ausgehende Anrufe
+
+
+
+#
+## Calendar
+	CallingTxtIncomingCallTime=, Dauer :
+	
+	
+# # Info Popup- Benachrichtigung
+CallingAlertTiersCollaborateur = rufen an einen Kollegen
+CallingAlertUserFiche = Blatt Mitarbeiter
+
+# Api mod
+# Api_Asterisk mod
+CallingApiAsteriskDescription = Modul Liaison api oscim für Sternchen . Diese API bereitgestellt Management mit clicktocall ausgehende Anrufe sowie Benachrichtigung über eingehende Anrufe ( es ist notwendig, um Sternchen Konfiguration und Einstellung Kontext) .
+# Api_keyyo mod
+CallingApiKeyyoDescription = Modul Liaison api Keyyo ( keyyo.fr ) . Diese API bereitgestellt Management mit clicktocall ausgehende Anrufe sowie Benachrichtigung über eingehende Anrufe (es ist notwendig , um die Schnittstelle Keyyo url Benachrichtigung konfigurieren ) .
+# Api ovh mod
+CallingApiOvhDescription = Link Modul api ovh Es ist notwendig, die clicktocall Modul sowie den Zugriff der einzelnen Benutzer zu konfigurieren. Fassen ausgehende Anrufe unterstützt.
+# Api_keyyo mod
+CallingApiOvhAsteriskDescription = Erweiterung des API Modul ovh . Um die eingehenden Meldung mit Sternchen verwalten ) . Diese API bereitgestellt Management bei ausgehenden Anrufen über die PBX clicktocall ovh und Benachrichtigung über eingehende Anrufe über PBX persönlich ( es ist notwendig, um Sternchen für diese Unterstützung konfigurieren ) .
+
+Alert # mod
+Probe # nicht laufen
+CallingAlertNorunDescription = Modul beispielsweise ohne Ausführung
+# Alarm simplejs mod
+CallingAlertSimplejsDescription = Zeigt ein Dialogfeld Angebot Links zu Drittanbieter-Plug / auf jQuery basiert Kontakt und über einen periodischen Aktualisierung
+# Alarm Advancedjs mod
+CallingAlertAdvancedjsDescription = Basierend auf jQuery und über einen periodischen Aktualisierung dieses Modul fügt Elemente in der rechten oberen Menü , ist es nicht aufdringlich !
+# Nodejs Alert mod
+CallingAlertNodejsDescription = Client Script ein servelet nodejs auf dem gleichen Server wie Dolibarr installiert und die Gewährleistung der Push von Daten ohne Ajax-Aufruf via regelmäßige Aktualisierung . Es ist Multi-User . Quellen der servelet sind in diesem Paket zur Verfügung gestellt. Das Display ist die gleiche wie die von der advancedjs Modul erzeugt .

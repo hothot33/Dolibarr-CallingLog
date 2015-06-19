@@ -1,0 +1,103 @@
+# Archivo de idioma Dolibarr - es_ES - pidiendo
+CHARSET = UTF - 8
+CallingSetup = soporte telefónico Configuración de llamadas entrantes / salientes
+CallingDesc = Configurar el comportamiento de los eventos de informe de las acciones de cada tres / contact. Creación de un contacto basado en el número de teléfono de alerta ( cuadro de diálogo ) en los enlaces entrantes con la tercera hoja de la llamada correspondiente . El módulo de ClickToCall debe estar configurado para este módulo funcione corrección para las llamadas salientes
+CallingApiSendActive = llamada saliente
+CallingApiRecevingActive = Llamada entrante
+URLforsendingcall = Url saliente
+URLfornotifiindoli= Url entrante
+CallingAlertTypePopup = Modo de Alerta
+CallingAlertType0 = n emergente notificación
+CallingAlertType1 = Sólo los usuarios son notificados de la llamada
+CallingAlertType2 = Todo usuario configurado para clicktodial se notifican
+CallingAlertType3 = Todos los usuarios son notificados
+CallingAlertTypeDetail = Rendimiento y mostrar un popup alerta de llamada entrante
+CallingAlertFiche = Hoja
+CallingAlertEdit = Powered
+CallingAlertTodo = Todo
+CallingConfigTab = Configuration
+CallingEditorTab = Editor
+CallingAlertTiersContact = Contacto
+CallingAlertTiersSociete = Tercera
+CallingAlertCreateNo = No crear registros
+CallingAlertCreateTiers = Crear un partido con identificador de llamadas
+CallingAlertCreateContact = Crear un número de contacto de la persona que llama
+CallingAlertCreateYes = un anuncio
+CallingAlertCreateAnonymous = Llamada Anónima
+CallingAlertCreateAnonymousDetail = Crear un formulario para llamadas anónimas
+CallingAlertCreateTiersInconnu = Creando Tercera
+CallingAlertCreateTiersInconnuDetail = Creación de un archivo (toque / tercera ) cuando una llamada cuyo número no está registrado en la base
+CallingTxtIncomingCall = Llamada entrante
+CallingTxtIncomingCallnotanswered = No responde
+CallingTxtOutgoingCall = Llamada saliente
+CallingLogInAction = rastrear las llamadas
+CallingLogInActionDetail = Traza todas las llamadas entrantes y salientes en renta variable
+CallingLogInActionNo = No se
+CallingLogInActionYes = Sí
+CallingButtonDisplay = Llamada
+CallingAlertTypeMode = Phone Company
+CallingAlertTypeModeNo = Igorer llamadas entrantes del número de usuarios de la empresa ( pro / personal / móvil)
+CallingAlertTypeModeYesButNoUser = Aceptar y notificar a menos que el usuario correspondiente
+CallingAlertTypeModeYesBuJustTrace = aceptar , pero sólo dibujar en acciones
+CallingAlertTypeModeDetail = comportamiento de las llamadas que entran (a través de móvil ClickToCall , llamada interna ) Usuarios internos
+CallingAlertTypeModeDisplayBlockUser = Información colaborador llamado
+CallingAlertTypeModeDisplayBlockUserNo = No se
+CallingAlertTypeModeDisplayBlockUserYes = Sí
+CallingAlertTypeModeDisplayBlockUserDetail = Muestra un bloque de información del empleado llamado
+CallingUserIncoming = Usuario
+CallingUserIncomingDetail = user automática de llamadas entrantes
+AsteriskIp = IP / Dominio
+ASteriskType Tipo =
+AsteriskIndicatif = Código
+AsteriskPort = Puerto
+AsteriskContext = Contexto
+
+
+
+#
+## Config / Admin
+#
+	#
+	# Settings
+	CallingDescSettings=configuración
+	
+	#
+	# Mod Provider Api
+	CallingProvider=proveedor
+	CallingDescModProvider=Elección del módulo de conexión con el servicio de telefonía API
+
+	#
+	# Mod Alert
+	CallingAlert=visualización
+	CallingDescModAlert=Visualización Comportamiento llamadas entrantes y salientes
+
+
+
+#
+## Calendar
+	CallingTxtIncomingCallTime=, duración :
+	
+	
+# # Información alerta emergente
+CallingAlertTiersCollaborateur = llaman a un colega
+CallingAlertUserFiche = hoja de empleado
+
+# Api mod
+# Api_Asterisk mod
+CallingApiAsteriskDescription = Módulo de Enlace api oscim por asterisco. Esta API proporciona la gestión de llamadas salientes con ClickToCall , así como la notificación de las llamadas entrantes ( que es necesaria para configurar y ajustar contexto asterisco ) .
+# Api_keyyo mod
+CallingApiKeyyoDescription = Módulo de Enlace api Keyyo ( keyyo.fr ) . Esta API proporciona la gestión de llamadas salientes con ClickToCall , así como la notificación de las llamadas entrantes ( es necesario configurar la notificación url Keyyo interfaz ) .
+# Api ovh mod
+CallingApiOvhDescription = módulo de Enlace api ovh Es necesario configurar el módulo ClickToCall , así como el acceso de cada usuario. Sólo manejar las llamadas salientes es compatible.
+# Api_keyyo mod
+CallingApiOvhAsteriskDescription = extensión del módulo API ovh . Para gestionar la notificación entrante con asterisco) . Esta API proporciona la gestión de llamadas salientes a través de la PBX ClickToCall ovh y notificación de las llamadas entrantes a través de PBX personal ( es necesario configurar asterisco para este apoyo ) .
+
+Alerta # mod
+Muestra # no funcionar
+CallingAlertNorunDescription = ejemplo del módulo sin ejecución
+# Alert mod simplejs
+CallingAlertSimplejsDescription = Muestra un cuadro de diálogo que ofrece enlaces de conexión de otro fabricante / contacto basado en jQuery y con una actualización periódica
+# Alert mod Advancedjs
+CallingAlertAdvancedjsDescription = Basado en jQuery y con una actualización periódica , este módulo añade elementos en el menú de arriba a la derecha , no es intrusiva !
+# NodeJS mod de alerta
+CallingAlertNodejsDescription = Script de cliente un servlet nodejs instalados en el mismo servidor que dolibarr y garantizar el empuje de los datos sin ajax llamada a través de actualización periódica . Es multi - usuario . Fuentes de servlet se proporcionan en este paquete. la pantalla es la misma que la producida por el módulo de advancedjs .

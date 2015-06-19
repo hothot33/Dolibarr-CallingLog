@@ -1,0 +1,102 @@
+# Dolibarr sprogfil - da_DK - kald
+Charset = UTF-8
+CallingSetup = Konfiguration support telefonopkald indgående / udgående
+CallingDesc = Konfigurer adfærd rapportens begivenheder i handlinger hver tredje / kontakt. Oprettelse af en kontaktperson baseret på telefonnummer; Alert (Dialog boks) på indgående links til siden med den tilsvarende tredje opkald. ClicktoCall Modulet skal være konfigureret til dette modul til at arbejde korrigere for udgående opkald
+CallingApiSendActive = udgående opkald
+CallingApiRecevingActive = indgående opkald
+URLforsendingcall url = udgående
+Indgående Url = URLfornotifiindoli
+CallingAlertTypePopup = alarm mode
+CallingAlertType0 = Ingen meddelelse popup
+CallingAlertType1 = Kun brugere af den kaldte meddeles
+CallingAlertType2 = Alle bruger konfigureret til clicktodial anmeldt
+CallingAlertType3 = Alle brugere får besked
+CallingAlertTypeDetail = Ydelse og vise en advarsel popup på indgående opkald
+CallingAlertFiche = Sheet
+Udgivet CallingAlertEdit =
+CallingAlertTodo = Todo
+CallingConfigTab = Konfiguration
+CallingEditorTab = Publisher
+CallingAlertTiersContact = Kontakt
+Tredje CallingAlertTiersSociete =
+CallingAlertCreateNo = Ingen skabelse rekord
+CallingAlertCreateTiers = Opret en fest med nummervisning
+CallingAlertCreateContact = Opret et kontaktnummer på opkalderen
+CallingAlertCreateYes = Tilføj en liste
+CallingAlertCreateAnonymous = anonyme opkald
+CallingAlertCreateAnonymousDetail = Opret en formular for anonyme opkald
+CallingAlertCreateTiersInconnu = Oprettelse Third
+CallingAlertCreateTiersInconnuDetail = Oprettelse af en profil (kontakt / tredje), når et indgående opkald, hvis nummer ikke er gemt i databasen
+CallingTxtIncomingCall = Indgående opkald
+
+CallingTxtIncomingCallnotanswered = ikke besvaret
+CallingTxtOutgoingCall = udgående opkald
+CallingLogInAction = Trace opkald
+CallingLogInActionDetail = Trace alle indgående og udgående opkald i aktier
+CallingLogInActionNo = Nej
+CallingLogInActionYes = Ja
+CallingButtonDisplay = Call
+CallingAlertTypeMode = Telefon selskab
+CallingAlertTypeModeNo = Igorer indgående opkald numre af brugere af virksomheden (pro / personlig / mobil)
+CallingAlertTypeModeYesButNoUser = Accepter og meddele, medmindre den tilsvarende bruger
+CallingAlertTypeModeYesBuJustTrace = acceptere, men bare trække på aktier
+CallingAlertTypeModeDetail = Adfærd ved indgående opkald fra (mobil via clicktocall, internt opkald) interne brugere
+CallingAlertTypeModeDisplayBlockUser = Information samarbejdspartner kaldet
+CallingAlertTypeModeDisplayBlockUserNo = Nej
+CallingAlertTypeModeDisplayBlockUserYes = Ja
+CallingAlertTypeModeDisplayBlockUserDetail = Viser en information blok af medarbejderen kaldet
+CallingUserIncoming = Bruger
+CallingUserIncomingDetail = automatisk bruger af indgående opkald
+AsteriskIp = IP / domæne
+ASteriskType = Type
+AsteriskIndicatif = Kode
+AsteriskPort = Port
+AsteriskContext = Kontekst
+
+
+#
+# # Config / Admin
+#
+#
+# settings
+CallingDescSettings = Konfiguration
+
+#
+# Mod Api Provider
+CallingProvider = Leverandør
+CallingDescModProvider = Vælg link modul med API telefonitjenesten
+
+#
+# Mod Alert
+CallingAlert = Vis
+CallingDescModAlert = Behavior display indgående og udgående opkald
+
+
+
+#
+Calendar # #
+CallingTxtIncomingCallTime = varighed:
+
+# # INFO popup alarm
+CallingAlertTiersCollaborateur = Opkald til en kollega
+CallingAlertUserFiche = Sheet bidragyder
+
+# Api mod
+# Api_Asterisk mod
+CallingApiAsteriskDescription = Modul Liaison api oscim til stjerne. Denne API forudsat et håndtag udgående opkald med clicktocall og meddelelser om indgående opkald (det er nødvendigt at konfigurere stjerne og justere kontekst).
+# Api_keyyo mod
+CallingApiKeyyoDescription = Modul Liaison api Keyyo (keyyo.fr). Denne API forudsat et håndtag udgående opkald med clicktocall og meddelelser om indgående opkald (det er nødvendigt at konfigurere grænsefladen Keyyo url anmeldelsen).
+# Api OvH mod
+CallingApiOvhDescription = Modul Liaison api OVH Det er nødvendigt at konfigurere clicktocall modul samt adgang hver bruger. Håndtere kun udgående opkald understøttes.
+# Api_keyyo mod
+CallingApiOvhAsteriskDescription = udvidelse af API OVH modulet. For at håndtere den indkommende meddelelse med stjerne). Denne API forudsat forvaltning med udgående opkald via PBX clicktocall OvH og meddelelser om indgående opkald via PBX personlige (det er nødvendigt at konfigurere stjerne for denne støtte).
+
+Alert # mod
+# Prøve nr. run
+CallingAlertNorunDescription = Modul eksempel uden udførelse
+# Alert simplejs mod
+CallingAlertSimplejsDescription = Vis en dialogboks tilbyder links til tredjeparts stik / kontakt baseret på jQuery og bruge en periodisk opdatering
+# Alert Advancedjs mod
+CallingAlertAdvancedjsDescription = Baseret på jQuery og bruge en periodisk opdatering, dette modul tilføjer en menu af elementer i det øverste højre; det er ikke-påtrængende!
+# Nodejs alarm mod
+CallingAlertNodejsDescription = Client Script a servelet nodejs installeret på samme server som Dolibarr og sikre tryk på data uden ajax opkald via periodisk opdatering. Det er multi-user. Kilderne til servelet findes i denne pakke. displayet er den samme som den, der produceres af advancedjs modulet.

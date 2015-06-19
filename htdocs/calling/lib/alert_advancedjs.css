@@ -1,0 +1,39 @@
+
+#advancedjs_button{
+	margin: 0 0 0 8px;
+	padding: 8px 0 0;
+
+}
+
+#callingbutton{
+	color: green;
+}
+#callingbutton.incoming{
+	color: red;
+}
+
+#alertcalling{
+	padding: 0.4em;
+	position: absolute;
+	right: 0;
+	display:none;
+	z-index:99;
+}
+
+#alertcalling.opened{
+	background:white;
+	border:1px solid black;
+	width: 240px;
+	height: 135px;
+}
+
+#alertcalling hr{
+	border:1px solid black;
+	height:0;
+}
+
+#alertcalling h3{
+	font-size:14px;
+	margin:0;
+	padding:0;
+}

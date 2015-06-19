@@ -1,0 +1,96 @@
+# Dolibarr language file - en_GB - calling
+CHARSET=UTF-8
+CallingSetup=Configuration de la prise en charge des appels téléphoniques entrant / sortant
+CallingDesc=Configure the behavior of the postponement of events in the shares of each third party / contact. Creating a contact on the basis of telephone number; Alert (Dialog box) during an incoming call with links to the corresponding plug-third. ClicktoCall module must be configured so that the correct module works for outgoing calls
+CallingApiSendActive=outgoing call
+CallingApiRecevingActive=incoming call
+URLforsendingcall=outgoing url
+URLfornotifiindoli=incoming Url
+CallingAlertTypePopup=Alert mode
+CallingAlertType0=No notification popup
+CallingAlertType1=Only users are notified of the called
+CallingAlertType2=All user configured for clicktodial are notified
+CallingAlertType3=All users are notified
+CallingAlertTypeDetail=Behavior and display a popup warning when incoming call
+CallingAlertFiche=Fiche
+CallingAlertEdit=edited
+CallingConfigTab=Config
+CallingEditorTab=Edit
+CallingAlertTodo=Todo
+CallingAlertTiersContact=Contact
+CallingAlertTiersSociete=third
+CallingAlertCreateNo=No creation of sheet
+CallingAlertCreateTiers=Create third with Caller's number
+CallingAlertCreateContact=Create a contact with the caller's number
+CallingAlertCreateYes=Creating an entry
+CallingAlertCreateAnonymous=Anonymous call
+CallingAlertCreateAnonymousDetail=Create a form for anonymous calls
+CallingAlertCreateTiersInconnu=Creation of Third
+CallingAlertCreateTiersInconnuDetail=Creating a form (contact / third) during incoming call whose number is not stored in database
+CallingTxtIncomingCall=incoming Call
+CallingTxtIncomingCallnotanswered= not answered
+CallingTxtOutgoingCall=incoming Url
+CallingLogInActionDetail=track all incoming and outgoing calls in equities
+CallingLogInActionNo=No
+CallingLogInActionYes=Yes
+CallingButtonDisplay=Call
+CallingAlertTypeMode=Phone Company
+CallingAlertTypeModeNo=Ignore incoming calls numbers business users (pro / personal / mobile)
+CallingAlertTypeModeYesButNoUser=Accept and except notify the corresponding user
+CallingAlertTypeModeYesBuJustTrace=Accept but just draw on shares
+CallingAlertTypeModeDetail=Behavior of incoming calls internal user (via clicktocall, mobile, internal call)
+CallingAlertTypeModeDisplayBlockUser=Information collaborator called
+CallingAlertTypeModeDisplayBlockUserNo=No
+CallingAlertTypeModeDisplayBlockUserYes=Yes
+CallingAlertTypeModeDisplayBlockUserDetail=Displays a block of information called the employee
+AsteriskIp=Ip/domain
+ASteriskType=Type
+AsteriskIndicatif=Indicatif
+AsteriskPort=Port
+AsteriskContext=Context
+
+
+#
+## Config / Admin
+#
+	#
+	# Settings
+	CallingDescSettings=Config
+	
+	#
+	# Mod Provider Api
+	CallingProvider=Provider
+	CallingDescModProvider=Choice of connection module with the API telephony service
+
+	#
+	# Mod Alert
+	CallingAlert=Display
+	CallingDescModAlert=Behavior display incoming and outgoing calls
+
+
+
+#
+## Calendar
+	CallingTxtIncomingCallTime=, duration :
+	
+## Info popup alert
+CallingAlertTiersCollaborateur=Call to a colleague
+CallingAlertUserFiche=Employee's Fiche view
+
+# Api mode
+	# Api_Asterisk mod
+	CallingApiAsteriskDescription=Module liaison api oscim for asterisk. This API provided management with clicktocall outgoing calls, as well as notification of incoming calls (it is necessary to set and adjust the asterisk context).
+	# Api_keyyo mod
+	CallingApiKeyyoDescription=Plug-in API that ovh. To manage the incoming notification with asterisk). This API provided management with outgoing calls via the PBX clicktocall ovh and notification of incoming calls via PBX personal (it is necessary to configure asterisk for this support).
+	# Api ovh mod
+	CallingApiOvhDescription =Link module with the API ovh It is necessary to configure the module clicktocall, as well as access for all users. Management only outgoing calls is supported.
+
+# Alert mod
+	# Sample no run
+	CallingAlertNorunDescription=Mod sample no run
+	# alert simplejs mod
+	CallingAlertSimplejsDescription= Display a dialog box offering links to third sheet / contact, based on jQuery and using a periodic refresh
+	# alert Advancedjs mod
+	CallingAlertAdvancedjsDescription=Based on jquery and using a periodic refresh, this module adds a menu items in the top right, it is not intrusive!
+	# alert Nodejs mod
+	CallingAlertNodejsDescription=A client script servelet nodejs installed on the same server and ensuring dolibarr push the data via ajax call without periodic refresh. It is multi-user. The sources are servelet provided in this package. the display is the same as that produced by the module advancedjs.

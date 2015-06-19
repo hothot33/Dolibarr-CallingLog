@@ -1,0 +1,102 @@
+# Dolibarr dil dosyası - tr - çağrı
+Charset = UTF-8
+CallingSetup = Yapılandırma destek telefon, gelen / giden çağrılar
+CallingDesc = her üçüncü / temas eylemleri rapor olayların davranışını yapılandırın. Telefon numarasına göre bir kişi oluşturma; Gelen üçüncü çağrısı ile sayfaya gelen linklere Alert (iletişim kutusu). ClicktoCall modülü giden aramalar için düzeltme çalışması için bu modül için yapılandırılmış olmalıdır
+CallingApiSendActive = giden çağrı
+CallingApiRecevingActive = Gelen çağrı
+URLforsendingcall Url = Giden
+Gelen URL = URLfornotifiindoli
+CallingAlertTypePopup = Uyarı modu
+CallingAlertType0 = Hayır bildirim kapat
+CallingAlertType1 = denilen Sadece kullanıcıları bildirilir
+CallingAlertType2 = ClickToDial için yapılandırılan tüm kullanıcı bildirilir
+CallingAlertType3 = Tüm kullanıcılar bildirilir
+CallingAlertTypeDetail = Performans ve gelen çağrı üzerine bir uyarı açılır penceresini görüntülemek
+CallingAlertFiche = Sayfası
+Yayınlandığı CallingAlertEdit =
+CallingAlertTodo = Todo
+CallingConfigTab = Yapılandırma
+CallingEditorTab = Yayıncı
+CallingAlertTiersContact = İletişim
+Üçüncü CallingAlertTiersSociete =
+CallingAlertCreateNo = Hayır oluşturma rekoru
+CallingAlertCreateTiers = Arayan kimliği ile bir parti oluşturun
+CallingAlertCreateContact = arayanın bir irtibat numarası oluşturma
+CallingAlertCreateYes = liste ekle
+CallingAlertCreateAnonymous = Anonim Çağrı
+CallingAlertCreateAnonymousDetail = anonim çağrılar için bir form oluşturma
+CallingAlertCreateTiersInconnu = Üçüncü oluşturma
+CallingAlertCreateTiersInconnuDetail = Bir profili (kişi / üçüncü) oluşturma zaman sayıları veritabanına kaydedilen bir gelen arama
+CallingTxtIncomingCall = Gelen Çağrı
+
+CallingTxtIncomingCallnotanswered = cevap yok
+CallingTxtOutgoingCall = Giden Çağrı
+CallingLogInAction = Trace aramalar
+CallingLogInActionDetail = hisse senetlerine tüm gelen ve giden aramaları Trace
+CallingLogInActionNo = Hayır
+CallingLogInActionYes = Evet
+CallingButtonDisplay = Çağrı
+CallingAlertTypeMode = Telefon şirketi
+CallingAlertTypeModeNo = Igorer gelen çağrıları şirketin kullanıcı sayısı (pro / kişisel / mobil)
+CallingAlertTypeModeYesButNoUser = Kabul ve haber sürece karşılık gelen kullanıcı
+CallingAlertTypeModeYesBuJustTrace = kabul ama sadece hisse senetleri üzerinde çizmek
+İç kullanıcılara (clicktocall, iç çağrı yoluyla cep) Gelen çağrılar üzerine CallingAlertTypeModeDetail = Davranış
+Denilen CallingAlertTypeModeDisplayBlockUser = Bilgi işbirlikçi
+CallingAlertTypeModeDisplayBlockUserNo = Hayır
+CallingAlertTypeModeDisplayBlockUserYes = Evet
+CallingAlertTypeModeDisplayBlockUserDetail = adlandırılan çalışan bir bilgi bloğunu görüntüler
+CallingUserIncoming = Kullanıcı
+Gelen aramaların CallingUserIncomingDetail = otomatik kullanım
+AsteriskIp = Ip / domain
+ASteriskType = Tür
+AsteriskIndicatif = Kod
+AsteriskPort = Noktası
+AsteriskContext = Bağlam
+
+
+#
+# # Yapılandırma / Yönetici
+#
+#
+# Ayarlar
+CallingDescSettings = Yapılandırma
+
+#
+# Mod Api Sağlayıcı
+CallingProvider = Tedarikçi
+API telefon hizmeti ile CallingDescModProvider = Seç bağlantı modülü
+
+#
+# Mod Uyarısı
+CallingAlert = Ekran
+CallingDescModAlert = Davranış ekran, gelen ve giden aramaları
+
+
+
+#
+Calendar # #
+CallingTxtIncomingCallTime = süre:
+
+# # Bilgi popup uyarı
+Bir meslektaşım CallingAlertTiersCollaborateur = Çağrı
+CallingAlertUserFiche = Sac katkıda
+
+# Api mod
+# Api_Asterisk mod
+Yıldızla için CallingApiAsteriskDescription = Modül İrtibat api oscim. Bu API clicktocall ve gelen çağrıların bildirimi (o yıldız yapılandırmak ve bağlamı ayarlamak için gerekli olan) bir kolu giden aramaları sağladı.
+# Api_keyyo mod
+CallingApiKeyyoDescription = Modül İrtibat API Keyyo (keyyo.fr). Bu API, gelen çağrıları clicktocall ve bildirim (bu arayüz Keyyo url bildirimi yapılandırmak için gerekli olan) bir kolu giden aramaları sağladı.
+# Api OVH mod
+CallingApiOvhDescription = Modül İrtibat API OVH Bu clicktocall modülünü yanı sıra her bir kullanıcının erişimini yapılandırmak için gereklidir. Yalnızca giden aramaları desteklenir anlaştım.
+# Api_keyyo mod
+API OVH Modülü CallingApiOvhAsteriskDescription = uzantısı. ) Yıldız ile gelen bildirimini yönetmek için. Bu API PBX üzerinden gelen aramaların PBX clicktocall OVH ve bildirim yoluyla giden çağrılar ile yönetimini temin (bu destek için yıldız yapılandırmak için gerekli olan) kişisel.
+
+Uyarı # mod
+# Örnek No Miktarı
+Yürütme olmadan CallingAlertNorunDescription = Modül örneği
+# Alert'in simplejs mod
+CallingAlertSimplejsDescription = jQuery tabanlı üçüncü parti plug / kişiye bağlantıları sunan ve periyodik yenileme kullanarak bir iletişim kutusu görüntüler
+# Uyarı Advancedjs mod
+CallingAlertAdvancedjsDescription = jquery ve periyodik yenileme kullanarak dayanarak, bu modül sağ üst Elementlerin bir menü ekler; Müdahaleci olmayan var!
+# Nodejs uyarı mod
+CallingAlertNodejsDescription = İstemci Senaryo Dolibarr ve periyodik yenileme yoluyla ajax çağrısı olmadan veri itme sağlamak gibi aynı sunucuda yüklü bir servelet nodejs. Bu multi-kullanıcı. Servelet of kaynakları, bu pakette verilmiştir. Ekran advancedjs modülü tarafından üretilen ile aynıdır.
