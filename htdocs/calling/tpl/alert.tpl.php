@@ -9,7 +9,7 @@
 // 					$collegue->fetch( $res->collaborateur);
 						echo '<h3 style="font-size:14px; margin:0; padding:0;">'.$langs->trans("CallingAlertTiersCollaborateur").' - '. $res->collaborateur->name.' '. $res->collaborateur->lastname .'</h3>
 									<ul>
-										<li><a href="http://'.$_SERVER['HTTP_HOST'].DOL_URL_ROOT.'/user/fiche.php?id='. $res->collaborateur->id .'">'.$langs->trans("CallingAlertUserFiche").'</a></li>
+										<li><a href="http://'.$_SERVER['HTTP_HOST'].DOL_URL_ROOT.'/user/card.php?id='. $res->collaborateur->id .'">'.$langs->trans("CallingAlertUserFiche").'</a></li>
 									</ul><hr />';
 			}
 
@@ -23,8 +23,8 @@
 						case 'contact':
 							echo '<h3 style="font-size:14px; margin:0; padding:0;">'.$langs->trans("CallingAlertTiersContact").' - '. $row->name.'</h3>
 										<ul>
-											<li><a href="http://'.$_SERVER['HTTP_HOST'].DOL_URL_ROOT.'/contact/fiche.php?id='. $row->id .'">'.$langs->trans("CallingAlertFiche").'</a></li>
-											<li><a href="http://'.$_SERVER['HTTP_HOST'].DOL_URL_ROOT.'/contact/fiche.php?id='. $row->id .'&amp;action=edit">'.$langs->trans("CallingAlertEdit").'</a></li>
+											<li><a href="http://'.$_SERVER['HTTP_HOST'].DOL_URL_ROOT.'/contact/card.php?id='. $row->id .'">'.$langs->trans("CallingAlertFiche").'</a></li>
+											<li><a href="http://'.$_SERVER['HTTP_HOST'].DOL_URL_ROOT.'/contact/card.php?id='. $row->id .'&amp;action=edit">'.$langs->trans("CallingAlertEdit").'</a></li>
 										</ul>';
 						break;
 						case 'societe':
